@@ -4,7 +4,6 @@ import matplotlib.image as mpimg
 import seaborn as sns
 import streamlit as st
 import urllib
-from func import DataAnalyzer, BrazilMapPlotter
 
 sns.set(style='dark')
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -207,3 +206,4 @@ with tab2:
         st.write('According to the graph that has been created, there are more customers in the southeast and south. Other information, there are more customers in cities that are capitals (São Paulo, Rio de Janeiro, Porto Alegre, and others).')
 
 st.caption('Copyright (C) Muhammad Hafiz 2023')
+
